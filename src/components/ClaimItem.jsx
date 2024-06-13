@@ -11,7 +11,7 @@ function ClaimItem({ claim }) {
           <div className="text-sm text-gray-500">{claim.role}</div>
         </div>
       </td>
-      <td className="p-2">
+    <td className="p-2">
         <div className='flex'>
         <img src={claim.deviceImage} alt={claim.device} className="w-10 h-10 mr-2" />
         <div>
